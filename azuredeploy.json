@@ -3,16 +3,19 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "rgName": {
-            "type": "string"
+            "type": "string",
+            "defaultValue": "rg_0CS"
         },
         "location": {
-            "type": "string"
+            "type": "string",
+            "defaultValue": "Australia East"
         },
         "workspaceName": {
             "type": "string",
             "metadata": {
                 "description": "Name for the Log Analytics workspace"
-            }
+            },
+            "defaultValue": "ws_0CS"
         },
         "pricingTier": {
             "type": "string",

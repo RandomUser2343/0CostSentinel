@@ -22,7 +22,7 @@
                 "type": "Microsoft.Common.TextBox",
                 "label": "Resource Group name",
                 "placeholder": "",
-                "defaultValue": "",
+                "defaultValue": "rg_vision",
                 "toolTip": "Enter a resource group name",
                 "constraints": {
                     "required": true,
@@ -36,7 +36,7 @@
                 "type": "Microsoft.Common.TextBox",
                 "label": "Workspace Name",
                 "placeholder": "",
-                "defaultValue": "",
+                "defaultValue": "ws_vision",
                 "toolTip": "The Workspace name should include 4-63 letters, digits or '-'. The '-' shouldn't be the first or the last symbol.",
                 "constraints": {
                     "required": true,
@@ -50,7 +50,7 @@
                 "type": "Microsoft.Common.TextBox",
                 "label": "Daily ingestion limit in GBs. Enter 0 for no limit.",
                 "placeholder": "",
-                "defaultValue": "0",
+                "defaultValue": "10",
                 "toolTip": "This limit doesn't apply to the following tables: SecurityAlert, SecurityBaseline, SecurityBaselineSummary, SecurityDetection, SecurityEvent, WindowsFirewall, MaliciousIPCommunication, LinuxAuditLog, SysmonEvent, ProtectionStatus, WindowsEvent. [Learn more](https://learn.microsoft.com/azure/azure-monitor/logs/daily-cap)",
                 "constraints": {
                     "required": true,
