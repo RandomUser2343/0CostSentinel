@@ -20,33 +20,9 @@
                 "description": "Pricing tier: pergb2018 or legacy tiers (Free, Standalone, PerNode, Standard or Premium) which are not available to all customers."
             },
             "allowedValues": [
-                "CapacityReservation",
-                "Free",
-                "LACluster",
-                "PerGB2018",
-                "PerNode",
-                "Premium",
-                "Standalone",
-                "Standard"
+                "PerGB2018"
             ],
             "defaultValue": "PerGB2018"
-        },
-        "capacityReservation": {
-            "type": "int",
-            "metadata": {
-                "description": "Commitment tier"
-            },
-            "allowedValues": [
-                100,
-                200,
-                300,
-                400,
-                500,
-                1000,
-                2000,
-                5000
-            ],
-            "defaultValue": 100
         },
         "enableDataConnectors": {
             "type": "array",
