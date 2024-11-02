@@ -91,7 +91,7 @@
                     "immediatePurgeDataOn30Days": "[parameters('immediatePurgeDataOn30Days')]"
                 },
                 "sku": {
-                    "capacityReservationLevel": "[if(equals(parameters('pricingTier'),'CapacityReservation'), parameters('capacityReservation'), json('null'))]",
+                    "capacityReservationLevel": "[json('null')]",
                     "name": "[parameters('pricingTier')]"
                 }
             }
