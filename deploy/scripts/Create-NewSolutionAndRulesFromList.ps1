@@ -31,8 +31,10 @@ $serverUrl = "https://management.azure.com"
 if ($isGov -eq $true) {
     $serverUrl = "https://management.usgovcloudapi.net"
 }
+# temp fix
+#$baseUri = $serverUrl + "/subscriptions/${SubscriptionId}/resourceGroups/${ResourceGroup}/providers/Microsoft.OperationalInsights/workspaces/${Workspace}"
+$baseUri = $serverUrl + "/subscriptions/1d9808ca-aaed-4844-820c-401610bd5fe9/resourceGroups/${ResourceGroup}/providers/Microsoft.OperationalInsights/workspaces/${Workspace}"
 
-$baseUri = $serverUrl + "/subscriptions/${SubscriptionId}/resourceGroups/${ResourceGroup}/providers/Microsoft.OperationalInsights/workspaces/${Workspace}"
 $alertUri = "$baseUri/providers/Microsoft.SecurityInsights/alertRules/"
 
 Write-Host " Base Uri: $baseUri"
