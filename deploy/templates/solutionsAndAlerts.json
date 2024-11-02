@@ -44,7 +44,7 @@
         },
         "roleGuid": {
             "type": "string",
-            "defaultValue": "[guid(resourceGroup().id, 'b24988ac-6180-42a0-ab88-20f7382dd24c')]"
+            "defaultValue": "[guid(resourceGroup().id, 'c24988ac-6180-42a0-ab88-20f7382dd24c')]"
         }
     },
     "functions": [],
