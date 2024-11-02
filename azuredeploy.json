@@ -3,19 +3,16 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "rgName": {
-            "type": "string",
-            "defaultValue": "rg_0CS"
+            "type": "string"
         },
         "location": {
-            "type": "string",
-            "defaultValue": "Australia East"
+            "type": "string"
         },
         "workspaceName": {
             "type": "string",
             "metadata": {
                 "description": "Name for the Log Analytics workspace"
-            },
-            "defaultValue": "ws_0CS"
+            }
         },
         "pricingTier": {
             "type": "string",
@@ -174,7 +171,7 @@
             "properties": {
                 "mode": "Incremental",
                 "templateLink": {
-                    "uri": "https://raw.githubusercontent.com/RandomUser2343/0CostSentinel/refs/heads/main/deploy/workspace.json",
+                    "uri": "https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Tools/Sentinel-All-In-One/v2/LinkedTemplates/workspace.json",
                     "contentVersion": "1.0.0.0"
                 },
                 "parameters": {
@@ -213,7 +210,7 @@
             "properties": {
                 "mode": "Incremental",
                 "templateLink": {
-                    "uri": "https://raw.githubusercontent.com/RandomUser2343/0CostSentinel/refs/heads/main/deploy/settings.json",
+                    "uri": "https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Tools/Sentinel-All-In-One/v2/LinkedTemplates/settings.json",
                     "contentVersion": "1.0.0.0"
                 },
                 "parameters": {
@@ -245,7 +242,7 @@
             "properties": {
                 "mode": "Incremental",
                 "templateLink": {
-                    "uri": "https://raw.githubusercontent.com/RandomUser2343/0CostSentinel/refs/heads/main/deploy/dataConnectors.json",
+                    "uri": "https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Tools/Sentinel-All-In-One/v2/LinkedTemplates/dataConnectors.json",
                     "contentVersion": "1.0.0.0"
                 },
                 "parameters": {
@@ -283,7 +280,7 @@
             "properties": {
                 "mode": "Incremental",
                 "templateLink": {
-                    "uri": "https://raw.githubusercontent.com/RandomUser2343/0CostSentinel/refs/heads/main/deploy/solutionsAndAlerts.json",
+                    "uri": "https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Tools/Sentinel-All-In-One/v2/LinkedTemplates/solutionsAndAlerts.json",
                     "contentVersion": "1.0.0.0"
                 },
                 "parameters": {
