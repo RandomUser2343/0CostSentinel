@@ -39,7 +39,7 @@
             "properties": {
                 "mode": "Incremental",
                 "templateLink": {
-                    "uri": "https://catalogartifact.azureedge.net/publicartifacts/azuresentinel.azure-sentinel-solution-azureactivedirectory-4ce15e62-2d69-4e80-ab66-9acb9ca86a07-azure-sentinel-solution-azureactivedirectory/Artifacts/mainTemplate.json",
+                    "uri": "https://raw.githubusercontent.com/RandomUser2343/0CostSentinel/refs/heads/main/deploy/solutions/azuread/mainTemplate.json",
                     "contentVersion": "1.0.0.0"
                 },
                 "parameters": {

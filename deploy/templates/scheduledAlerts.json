@@ -82,7 +82,7 @@
                 "forceUpdateTag": "1",
                 "azPowerShellVersion": "3.0",
                 "arguments": "[concat('-Workspace ', parameters('workspaceName'), ' -ResourceGroup ', resourceGroup().name, ' -Connectors ', parameters('dataConnectorsList'), ' -SeveritiesToInclude ', parameters('severityLevels'))]",
-                "primaryScriptUri": "https://raw.githubusercontent.com/RandomUser2343/0CostSentinel/refs/heads/main/scripts/EnableRules.ps1",
+                "primaryScriptUri": "https://raw.githubusercontent.com/RandomUser2343/0CostSentinel/refs/heads/main/deploy/scripts/EnableRules.ps1",
                 "supportingScriptUris": [],
                 "timeout": "PT30M",
                 "cleanupPreference": "OnExpiration",
