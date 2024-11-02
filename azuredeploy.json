@@ -159,9 +159,6 @@
                     "immediatePurgeDataOn30Days": {
                         "value": "[parameters('immediatePurgeDataOn30Days')]"
                     },
-                    "capacityReservation": {
-                        "value": "[parameters('capacityReservation')]"
-                    },
                     "location": {
                         "value": "[parameters('location')]"
                     }
